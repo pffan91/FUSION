@@ -34,7 +34,7 @@ Manual:
 
 ### TODO:
 1. Complete README - DONE
-2. Add example projects
+2. Add example projects - DONE
 3. Write tutorial
 
 
