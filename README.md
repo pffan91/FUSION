@@ -13,7 +13,7 @@ You can think that FUSION is not an architecture but approach to develop iOS App
 ### Main concepts
 Here is the main concepts:
 
-![FUSION Diagram](https://dl.dropbox.com/s/28zjymwtqqxzac7/FUSION_diag.png)
+![FUSION Diagram](https://raw.githubusercontent.com/pffan91/FUSION/master/FUSION.png)
 
 - Worker - here is where all your business logic located. You name worker by key concept. For example you can have UserWorker where will be methods for getting user from server, updating user, creating user, checking if user authorized, cache user and so on. Public methods must be class method so you can easily call them;
 - Scene - this represents separate Screen. It contains with ViewController, ViewModel, Configurator, InputData and Animations;
