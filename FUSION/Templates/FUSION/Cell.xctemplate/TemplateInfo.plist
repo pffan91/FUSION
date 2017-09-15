@@ -54,6 +54,29 @@
 			<key>Type</key>
 			<string>static</string>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file for user interface</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>cocoaSubclass</key>
+				<array>
+					<string>NSDocument</string>
+					<string>NSViewController</string>
+					<string>NSWindowController</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 </dict>
 </plist>
